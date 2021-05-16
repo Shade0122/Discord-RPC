@@ -1,3 +1,10 @@
+using System;
+using System.Runtime.InteropServices;
+
+namespace DiscordRPCTest
+{
+    class DiscordRPC
+    {
         [DllImport("discord-rpc-w32.dll", CallingConvention = CallingConvention.Cdecl, EntryPoint = "Discord_Initialize")]
         public static extern void Initialize(string applicationId, ref DiscordRPC.EventHandlers handlers, bool autoRegister, string optionalSteamId);
         [DllImport("discord-rpc-w32.dll", CallingConvention = CallingConvention.Cdecl, EntryPoint = "Discord_RunCallbacks")]
@@ -7,28 +14,20 @@
         [DllImport("discord-rpc-w32.dll", CallingConvention = CallingConvention.Cdecl, EntryPoint = "Discord_UpdatePresence")]
 
         public static extern void UpdatePresence(ref DiscordRPC.RichPresence presence);
+        public delegate void DisconnectedCallback(int errorCode, string message);
+        public delegate void ErrorCallback(int errorCode, string message);
+        public delegate void ReadyCallback();
 
         internal static void Initialize(string v1, ref object handlers, bool v2, object p)
         {
             throw new NotImplementedException();
         }
-        [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-
-        public delegate void DisconnectedCallback(int errorCode, string message);
-        [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-        
-        public delegate void ErrorCallback(int errorCode, string message);
         public struct EventHandlers
         {
             public DiscordRPC.ReadyCallback readyCallback;
             public DiscordRPC.DisconnectedCallback disconnectedCallback;
             public DiscordRPC.ErrorCallback errorCallback;
         }
-        [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-        
-        public delegate void ReadyCallback();
-        [Serializable]
-
         public struct RichPresence
         {
             public string state;
@@ -47,3 +46,5 @@
             public string spectateSecret;
             public bool instance;
         }
+    }
+}
