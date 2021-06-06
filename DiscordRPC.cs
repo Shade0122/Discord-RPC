@@ -22,12 +22,14 @@ namespace DiscordRPCTest
         {
             throw new NotImplementedException();
         }
+        
         public struct EventHandlers
         {
             public DiscordRPC.ReadyCallback readyCallback;
             public DiscordRPC.DisconnectedCallback disconnectedCallback;
             public DiscordRPC.ErrorCallback errorCallback;
         }
+        
         public struct RichPresence
         {
             public string state;
