@@ -25,7 +25,7 @@ presence.smallImageText = "Small Image Text";
 ```
 So change any of the string to whatever you want.
 
-_For chaning the image of the RPC follow these steps. `(Keep in mind for uploading images they must atleast be 512x512 and a maxuim of 1024x1024, for resizing images automatically I recommend using,` [Simple Image Resizer](http://www.simpleimageresizer.com/))_
+_For chaning the image of the RPC follow these steps. Keep in mind for uploading images they must atleast be 512x512 and a maxuim of 1024x1024, for resizing images automatically I recommend using, [Simple Image Resizer](http://www.simpleimageresizer.com/))_
 
 ## Contact
 If you want to contact me, or report any issues with it you can either do the following:
