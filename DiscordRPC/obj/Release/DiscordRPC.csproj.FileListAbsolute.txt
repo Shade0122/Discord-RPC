@@ -1,0 +1,10 @@
+C:\Users\dboua\source\repos\DiscordRPC\DiscordRPC\bin\Release\DiscordRPC.exe.config
+C:\Users\dboua\source\repos\DiscordRPC\DiscordRPC\bin\Release\DiscordRPC.exe
+C:\Users\dboua\source\repos\DiscordRPC\DiscordRPC\bin\Release\DiscordRPC.pdb
+C:\Users\dboua\source\repos\DiscordRPC\DiscordRPC\obj\Release\DiscordRPC.Form1.resources
+C:\Users\dboua\source\repos\DiscordRPC\DiscordRPC\obj\Release\DiscordRPC.Properties.Resources.resources
+C:\Users\dboua\source\repos\DiscordRPC\DiscordRPC\obj\Release\DiscordRPC.csproj.GenerateResource.cache
+C:\Users\dboua\source\repos\DiscordRPC\DiscordRPC\obj\Release\DiscordRPC.csproj.CoreCompileInputs.cache
+C:\Users\dboua\source\repos\DiscordRPC\DiscordRPC\obj\Release\DiscordRPC.exe
+C:\Users\dboua\source\repos\DiscordRPC\DiscordRPC\obj\Release\DiscordRPC.pdb
+C:\Users\dboua\source\repos\DiscordRPC\DiscordRPC\obj\Release\DiscordRPC.csproj.AssemblyReference.cache
