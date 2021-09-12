@@ -1,6 +1,6 @@
 <h3 align="center">C# Discord RPC</h3>
 <p align="center">
-  An easy way of brodcasting what program the user is using. (Only works on desktop)
+  An easy way of broadcasting what program the user is using. (Only works on desktop)
   <p align="center">
     <a href="https://github.com/Shade0122/Discord-RPC/issues">Report A Bug</a>
     ·
